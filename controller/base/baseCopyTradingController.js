@@ -173,7 +173,6 @@ const BaseCopyTradingController = {
                             return num // Return as a string to maintain precision
                         }
 
-                        // Example
                         const fixedPointValue = whaleTransactionResult[0].amountIn;
                         const decimals = 18;
                         const result = fromFixedPoint(fixedPointValue, decimals);
@@ -181,7 +180,6 @@ const BaseCopyTradingController = {
                     }
                     else {
                         try {
-                            Blue(`swap`)
                             const swapBuyAmount = await sellTokenETH(findUserBaseWallet.privateKey, whaleTransactionResult[0].sendToken, 30);
                             function fromFixedPoint(fixedPointStr, decimals) {
                                 const divisor = 10 ** decimals;
@@ -192,8 +190,6 @@ const BaseCopyTradingController = {
                             const fixedPointValue = swapBuyAmount;
                             const decimals = 18;
                             const result = fromFixedPoint(fixedPointValue, decimals);
-
-                            console.log(`🤣🤣🤣🤣 ${result}`)
                             await buyTokenETH(findUserBaseWallet.privateKey, whaleTransactionResult[0].receiveToken, Number(result));
                         } catch (error) {
                             Red(`copyTradingStartAndStop ====>   ${error}`)

@@ -1,228 +1,618 @@
-{
-    "_events": {},
-    "_eventsCount": 1,
-    "_binaryType": "nodebuffer",
-    "_closeCode": 1006,
-    "_closeFrameReceived": false,
-    "_closeFrameSent": false,
-    "_closeMessage": {
-        "type": "Buffer",
-        "data": []
-    },
-    "_closeTimer": null,
-    "_errorEmitted": false,
-    "_extensions": {},
-    "_paused": false,
-    "_protocol": "",
-    "_readyState": 1,
-    "_receiver": {
-        "_events": {},
-        "_writableState": {
-            "highWaterMark": 16384,
-            "length": 0,
-            "corked": 0,
-            "writelen": 0,
-            "bufferedIndex": 0,
-            "pendingcb": 0
+[
+    {
+        "edit_history_tweet_ids": [
+            "1894281046360797199"
+        ],
+        "created_at": "2025-02-25T06:59:30.000Z",
+        "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 0
         },
-        "_allowSynchronousEvents": true,
-        "_binaryType": "nodebuffer",
-        "_extensions": {},
-        "_isServer": false,
-        "_maxPayload": 104857600,
-        "_skipUTF8Validation": false,
-        "_bufferedBytes": 0,
-        "_buffers": [],
-        "_compressed": false,
-        "_payloadLength": 0,
-        "_fragmented": 0,
-        "_masked": false,
-        "_fin": false,
-        "_opcode": 0,
-        "_totalPayloadLength": 0,
-        "_messageLength": 0,
-        "_fragments": [],
-        "_errored": false,
-        "_loop": false,
-        "_state": 0,
-        "_eventsCount": 6
-    },
-    "_sender": {
-        "_extensions": {},
-        "_socket": {
-            "_tlsOptions": {
-                "pipe": false,
-                "secureContext": {
-                    "context": {}
-                },
-                "isServer": false,
-                "requestCert": true,
-                "rejectUnauthorized": true
-            },
-            "_secureEstablished": true,
-            "_securePending": false,
-            "_newSessionPending": false,
-            "_controlReleased": true,
-            "secureConnecting": false,
-            "_SNICallback": null,
-            "servername": "mainnet.helius-rpc.com",
-            "alpnProtocol": false,
-            "authorized": true,
-            "authorizationError": null,
-            "encrypted": true,
-            "_events": {
-                "close": [
-                    null,
-                    null
-                ],
-                "end": [
-                    null,
-                    null
-                ],
-                "newListener": [
-                    null,
-                    null
-                ]
-            },
-            "_eventsCount": 6,
-            "connecting": false,
-            "_hadError": false,
-            "_parent": null,
-            "_host": "mainnet.helius-rpc.com",
-            "_closeAfterHandlingError": false,
-            "_readableState": {
-                "highWaterMark": 16384,
-                "buffer": [],
-                "bufferIndex": 0,
-                "length": 0,
-                "pipes": [],
-                "awaitDrainWriters": null
-            },
-            "_writableState": {
-                "highWaterMark": 16384,
-                "length": 0,
-                "corked": 0,
-                "writelen": 0,
-                "bufferedIndex": 0,
-                "pendingcb": 0
-            },
-            "allowHalfOpen": false,
-            "_sockname": null,
-            "_pendingData": null,
-            "_pendingEncoding": "",
-            "_server": null,
-            "ssl": {
-                "_parent": {
-                    "reading": true,
-                    "onconnection": null
-                },
-                "_parentWrap": null,
-                "_secureContext": {
-                    "context": {}
-                },
-                "reading": true
-            },
-            "_requestCert": true,
-            "_rejectUnauthorized": true,
-            "parser": null,
-            "_httpMessage": null,
-            "autoSelectFamilyAttemptedAddresses": [
-                "172.64.151.87:443"
+        "conversation_id": "1894281046360797199",
+        "author_id": "1887717656913960960",
+        "lang": "en",
+        "id": "1894281046360797199",
+        "entities": {
+            "urls": [
+                {
+                    "start": 54,
+                    "end": 77,
+                    "url": "https://t.co/smSNTjUsT5",
+                    "expanded_url": "https://x.com/TeslaFiNews/likes",
+                    "display_url": "x.com/TeslaFiNews/li…",
+                    "status": 200,
+                    "title": "X",
+                    "unwound_url": "https://x.com/i/flow/login"
+                }
             ],
-            "timeout": 0
-        },
-        "_firstFragment": true,
-        "_compress": false,
-        "_bufferedBytes": 0,
-        "_queue": [],
-        "_state": 0
-    },
-    "_socket": {
-        "_tlsOptions": {
-            "pipe": false,
-            "secureContext": {
-                "context": {}
-            },
-            "isServer": false,
-            "requestCert": true,
-            "rejectUnauthorized": true
-        },
-        "_secureEstablished": true,
-        "_securePending": false,
-        "_newSessionPending": false,
-        "_controlReleased": true,
-        "secureConnecting": false,
-        "_SNICallback": null,
-        "servername": "mainnet.helius-rpc.com",
-        "alpnProtocol": false,
-        "authorized": true,
-        "authorizationError": null,
-        "encrypted": true,
-        "_events": {
-            "close": [
-                null,
-                null
+            "mentions": [
+                {
+                    "start": 94,
+                    "end": 106,
+                    "username": "IdrisAlimi5",
+                    "id": "1365032127595761670"
+                },
+                {
+                    "start": 107,
+                    "end": 119,
+                    "username": "RektLawliet",
+                    "id": "1569454339462418435"
+                },
+                {
+                    "start": 120,
+                    "end": 128,
+                    "username": "wrgwwrg",
+                    "id": "2614875300"
+                },
+                {
+                    "start": 129,
+                    "end": 143,
+                    "username": "MillieWallner",
+                    "id": "1569330127628271616"
+                },
+                {
+                    "start": 144,
+                    "end": 153,
+                    "username": "yll95111",
+                    "id": "1475282708939091970"
+                },
+                {
+                    "start": 154,
+                    "end": 166,
+                    "username": "ABU_cryptoo",
+                    "id": "1841419128416153600"
+                },
+                {
+                    "start": 167,
+                    "end": 180,
+                    "username": "Cryptophanat",
+                    "id": "1201815733010927622"
+                },
+                {
+                    "start": 181,
+                    "end": 193,
+                    "username": "shahinusa96",
+                    "id": "1619395761825021952"
+                },
+                {
+                    "start": 194,
+                    "end": 208,
+                    "username": "YooShi_Solana",
+                    "id": "1878853153329946629"
+                },
+                {
+                    "start": 209,
+                    "end": 220,
+                    "username": "masih75280",
+                    "id": "1639389327582015489"
+                }
             ],
-            "end": [
-                null,
-                null
-            ],
-            "newListener": [
-                null,
-                null
+            "annotations": [
+                {
+                    "start": 222,
+                    "end": 226,
+                    "probability": 0.5404,
+                    "type": "Other",
+                    "normalized_text": "EENMX"
+                }
             ]
         },
-        "_eventsCount": 6,
-        "connecting": false,
-        "_hadError": false,
-        "_parent": null,
-        "_host": "mainnet.helius-rpc.com",
-        "_closeAfterHandlingError": false,
-        "_readableState": {
-            "highWaterMark": 16384,
-            "buffer": [],
-            "bufferIndex": 0,
-            "length": 0,
-            "pipes": [],
-            "awaitDrainWriters": null
-        },
-        "_writableState": {
-            "highWaterMark": 16384,
-            "length": 0,
-            "corked": 0,
-            "writelen": 0,
-            "bufferedIndex": 0,
-            "pendingcb": 0
-        },
-        "allowHalfOpen": false,
-        "_sockname": null,
-        "_pendingData": null,
-        "_pendingEncoding": "",
-        "_server": null,
-        "ssl": {
-            "_parent": {
-                "reading": true,
-                "onconnection": null
-            },
-            "_parentWrap": null,
-            "_secureContext": {
-                "context": {}
-            },
-            "reading": true
-        },
-        "_requestCert": true,
-        "_rejectUnauthorized": true,
-        "parser": null,
-        "_httpMessage": null,
-        "autoSelectFamilyAttemptedAddresses": [
-            "172.64.151.87:443"
-        ],
-        "timeout": 0
+        "text": "🚨Breaking News: Join the X Token Presale!\n\n🚀 Invite ➞ https://t.co/smSNTjUsT5\n\nInvited users: @IdrisAlimi5 @RektLawliet @wrgwwrg @MillieWallner @yll95111 @ABU_cryptoo @Cryptophanat @shahinusa96 @YooShi_Solana @masih75280  EENMX"
     },
-    "_bufferedAmount": 0,
-    "_isServer": false,
-    "_redirects": 0,
-    "_autoPong": true,
-    "_url": "wss://mainnet.helius-rpc.com/?api-key=adcb5efb-1e8d-4b33-8e77-6b9b4e009b73",
-    "_req": null
-}
+    {
+        "referenced_tweets": [
+            {
+                "type": "retweeted",
+                "id": "1894247801158042098"
+            }
+        ],
+        "entities": {
+            "cashtags": [
+                {
+                    "start": 18,
+                    "end": 22,
+                    "tag": "WWW"
+                }
+            ],
+            "mentions": [
+                {
+                    "start": 3,
+                    "end": 16,
+                    "username": "0xProspector",
+                    "id": "1436809986009706502"
+                }
+            ],
+            "annotations": [
+                {
+                    "start": 19,
+                    "end": 21,
+                    "probability": 0.5724,
+                    "type": "Organization",
+                    "normalized_text": "WWW"
+                }
+            ]
+        },
+        "edit_history_tweet_ids": [
+            "1894281036500029767"
+        ],
+        "created_at": "2025-02-25T06:59:27.000Z",
+        "public_metrics": {
+            "retweet_count": 9,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 0
+        },
+        "conversation_id": "1894281036500029767",
+        "author_id": "3016087056",
+        "lang": "en",
+        "id": "1894281036500029767",
+        "text": "RT @0xProspector: $WWW 🌐 World Wide Web \n\nOG ticker on pumpfun. 11months old \n\nMemecoins would be nothing without this. This is the ancesto…"
+    },
+    {
+        "referenced_tweets": [
+            {
+                "type": "retweeted",
+                "id": "1894280923002409458"
+            }
+        ],
+        "edit_history_tweet_ids": [
+            "1894281034226602251"
+        ],
+        "created_at": "2025-02-25T06:59:27.000Z",
+        "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 0
+        },
+        "conversation_id": "1894281034226602251",
+        "author_id": "1765769366300155904",
+        "lang": "en",
+        "id": "1894281034226602251",
+        "text": "RT @crypto_crores: There is no alt season\nPump fun was the alt season \n\nSorry guy's",
+        "entities": {
+            "mentions": [
+                {
+                    "start": 3,
+                    "end": 17,
+                    "username": "crypto_crores",
+                    "id": "1781418212242210816"
+                }
+            ]
+        }
+    },
+    {
+        "entities": {
+            "cashtags": [
+                {
+                    "start": 0,
+                    "end": 6,
+                    "tag": "SOLBO"
+                }
+            ],
+            "urls": [
+                {
+                    "start": 47,
+                    "end": 70,
+                    "url": "https://t.co/r7DFTf3y3F",
+                    "expanded_url": "https://t.me/memecoinonlive",
+                    "display_url": "t.me/memecoinonlive",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1894252675283197952/1DE3cX4O?format=jpg&name=orig",
+                            "width": 320,
+                            "height": 320
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1894252675283197952/1DE3cX4O?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "SOLBO",
+                    "description": "HvQNWWzz6gPK8FqmJVEsewYC2FFzpTvUkFLSqwLPpump",
+                    "unwound_url": "https://t.me/memecoinonlive"
+                },
+                {
+                    "start": 80,
+                    "end": 103,
+                    "url": "https://t.co/YSC5Bnbr4R",
+                    "expanded_url": "https://discord.gg/tzBGfvx4Wt",
+                    "display_url": "discord.gg/tzBGfvx4Wt",
+                    "status": 200,
+                    "title": "Join the Apex Crypto Discord Server!",
+                    "description": "Check out the Apex Crypto community on Discord - hang out with 1767 other members and enjoy free voice and text chat.",
+                    "unwound_url": "https://discord.com/invite/tzBGfvx4Wt"
+                },
+                {
+                    "start": 183,
+                    "end": 206,
+                    "url": "https://t.co/cTJW9xkH4k",
+                    "expanded_url": "https://pump.fun/coin/HvQNWWzz6gPK8FqmJVEsewYC2FFzpTvUkFLSqwLPpump",
+                    "display_url": "pump.fun/coin/HvQNWWzz6…",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1894260581609476096/4X08NyVz?format=jpg&name=orig",
+                            "width": 1200,
+                            "height": 630
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1894260581609476096/4X08NyVz?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "Solana Hobo (SOLBO) - Pump",
+                    "description": "All Solana holders right now are $SOLBO's",
+                    "unwound_url": "https://pump.fun/coin/HvQNWWzz6gPK8FqmJVEsewYC2FFzpTvUkFLSqwLPpump"
+                }
+            ],
+            "mentions": [
+                {
+                    "start": 116,
+                    "end": 124,
+                    "username": "buyapex",
+                    "id": "1874507197553532928"
+                }
+            ]
+        },
+        "edit_history_tweet_ids": [
+            "1894280994363949479"
+        ],
+        "created_at": "2025-02-25T06:59:17.000Z",
+        "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 2,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 1
+        },
+        "conversation_id": "1894280994363949479",
+        "author_id": "1830087894872002560",
+        "lang": "nl",
+        "id": "1894280994363949479",
+        "text": "$SOLBO (Solana Hobo) Official links:\nTelegram: https://t.co/r7DFTf3y3F\nDiscord: https://t.co/YSC5Bnbr4R\nDev main X: @buyapex\nca: HvQNWWzz6gPK8FqmJVEsewYC2FFzpTvUkFLSqwLPpump\nPumpfun: https://t.co/cTJW9xkH4k"
+    },
+    {
+        "referenced_tweets": [
+            {
+                "type": "retweeted",
+                "id": "1894280303562150305"
+            }
+        ],
+        "edit_history_tweet_ids": [
+            "1894280987086905701"
+        ],
+        "created_at": "2025-02-25T06:59:16.000Z",
+        "public_metrics": {
+            "retweet_count": 6,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 0
+        },
+        "conversation_id": "1894280987086905701",
+        "author_id": "1869868485733421057",
+        "lang": "en",
+        "id": "1894280987086905701",
+        "text": "RT @Greyweb3: @coinbureau Big news! 📰\n\nThe countdown is on—$TTP (Trust The Process) drops SOON on Solana! ⏳ No presale, no VC—just straight…",
+        "entities": {
+            "mentions": [
+                {
+                    "start": 3,
+                    "end": 12,
+                    "username": "Greyweb3",
+                    "id": "1861108458012962816"
+                },
+                {
+                    "start": 14,
+                    "end": 25,
+                    "username": "coinbureau",
+                    "id": "906230721513181184"
+                }
+            ],
+            "annotations": [
+                {
+                    "start": 60,
+                    "end": 62,
+                    "probability": 0.3299,
+                    "type": "Other",
+                    "normalized_text": "TTP"
+                },
+                {
+                    "start": 98,
+                    "end": 103,
+                    "probability": 0.4604,
+                    "type": "Other",
+                    "normalized_text": "Solana"
+                }
+            ]
+        }
+    },
+    {
+        "referenced_tweets": [
+            {
+                "type": "retweeted",
+                "id": "1893978504091279364"
+            }
+        ],
+        "edit_history_tweet_ids": [
+            "1894280971522093331"
+        ],
+        "created_at": "2025-02-25T06:59:12.000Z",
+        "public_metrics": {
+            "retweet_count": 3645,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 0
+        },
+        "conversation_id": "1894280971522093331",
+        "author_id": "3242173502",
+        "lang": "en",
+        "id": "1894280971522093331",
+        "text": "RT @mortandretardio: 🚀 UNDER 14 HOURS TO LAUNCH – MORT TAKES OVER SOLANA! \n\nThe streets are watching. The snipers are ready. The rebellion…",
+        "entities": {
+            "mentions": [
+                {
+                    "start": 3,
+                    "end": 19,
+                    "username": "mortandretardio",
+                    "id": "1786844565871243264"
+                }
+            ],
+            "annotations": [
+                {
+                    "start": 66,
+                    "end": 71,
+                    "probability": 0.5297,
+                    "type": "Person",
+                    "normalized_text": "SOLANA"
+                }
+            ]
+        }
+    },
+    {
+        "referenced_tweets": [
+            {
+                "type": "retweeted",
+                "id": "1893996626437448112"
+            }
+        ],
+        "edit_history_tweet_ids": [
+            "1894280962877657203"
+        ],
+        "created_at": "2025-02-25T06:59:10.000Z",
+        "public_metrics": {
+            "retweet_count": 968,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 0
+        },
+        "conversation_id": "1894280962877657203",
+        "author_id": "1866702384078131200",
+        "lang": "en",
+        "id": "1894280962877657203",
+        "text": "RT @x_stoopidcats_x: 🚨 24 Hours Left! 🚨\n\nPresale is almost here! \nBe aware of scam sites—double-check all links!\n\n🔗 Official Links:\n🌐 Websi…",
+        "entities": {
+            "mentions": [
+                {
+                    "start": 3,
+                    "end": 19,
+                    "username": "x_stoopidcats_x",
+                    "id": "1787536345923297285"
+                }
+            ]
+        }
+    },
+    {
+        "referenced_tweets": [
+            {
+                "type": "replied_to",
+                "id": "1894261805276696636"
+            }
+        ],
+        "edit_history_tweet_ids": [
+            "1894280961568686206"
+        ],
+        "created_at": "2025-02-25T06:59:09.000Z",
+        "entities": {
+            "hashtags": [
+                {
+                    "start": 207,
+                    "end": 214,
+                    "tag": "RatCop"
+                },
+                {
+                    "start": 215,
+                    "end": 222,
+                    "tag": "Solana"
+                },
+                {
+                    "start": 223,
+                    "end": 233,
+                    "tag": "Memecoins"
+                },
+                {
+                    "start": 234,
+                    "end": 253,
+                    "tag": "MemeCoinSeason2025"
+                },
+                {
+                    "start": 254,
+                    "end": 261,
+                    "tag": "CRYPTO"
+                },
+                {
+                    "start": 262,
+                    "end": 270,
+                    "tag": "Presale"
+                },
+                {
+                    "start": 271,
+                    "end": 280,
+                    "tag": "Pinksale"
+                }
+            ],
+            "urls": [
+                {
+                    "start": 182,
+                    "end": 205,
+                    "url": "https://t.co/obXDPUv63g",
+                    "expanded_url": "https://pinksale.finance/solana/launchpad/9vHq4iMkbY7BYLz5rGGZ3YdjM9juhmEMNWJ2CXZDCMjK",
+                    "display_url": "pinksale.finance/solana/launchp…",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1893910286748303360/alJIvg5A?format=png&name=orig",
+                            "width": 401,
+                            "height": 401
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1893910286748303360/alJIvg5A?format=png&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "RatCop - How to buy RatCop",
+                    "description": "RatCop 🐭– The scam-busting rat that locks fake meme coins behind bars. No rugs, no escapes—just justice! 🔍 Track projects with Rat Shield – your ultimate tool to detect scams before they strike! 🛡️ Rat Shield is LIVE! 🛡️ ✅ Fully Audited Contract 💥 Top-Tier CEX Listing ⚡ Fas  t-Track CMC & CG 📢 Banner Ads (Moontok, 4Chan) 🔥 Moontok, NTM Listing 🚀 Pro-Active Marketing 📞 Top-Tier Callers 🌟 Leading KOL Support Stay safe. Stay smart. Stay with RatCop! 🛡️",
+                    "unwound_url": "https://www.pinksale.finance/solana/launchpad/9vHq4iMkbY7BYLz5rGGZ3YdjM9juhmEMNWJ2CXZDCMjK"
+                },
+                {
+                    "start": 281,
+                    "end": 304,
+                    "url": "https://t.co/0K4eilySXN",
+                    "expanded_url": "https://x.com/SolsolTodd/status/1894280961568686206/photo/1",
+                    "display_url": "pic.x.com/0K4eilySXN",
+                    "media_key": "3_1894280952194482176"
+                }
+            ],
+            "mentions": [
+                {
+                    "start": 0,
+                    "end": 12,
+                    "username": "Sol_Shower1",
+                    "id": "1894120987182206978"
+                },
+                {
+                    "start": 61,
+                    "end": 71,
+                    "username": "RatCopSOL",
+                    "id": "1517008035646001152"
+                }
+            ],
+            "annotations": [
+                {
+                    "start": 85,
+                    "end": 92,
+                    "probability": 0.6151,
+                    "type": "Other",
+                    "normalized_text": "PinkSale"
+                }
+            ]
+        },
+        "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 1
+        },
+        "attachments": {
+            "media_keys": [
+                "3_1894280952194482176"
+            ]
+        },
+        "conversation_id": "1894261805276696636",
+        "author_id": "1550721310925508615",
+        "lang": "en",
+        "id": "1894280961568686206",
+        "text": "@Sol_Shower1 🚨RatCop is on duty—scammers, your time is up!🚨\n\n@RatCopSOL goes live on PinkSale today at 13:00 UTC!\n\n🛡️Rat Shield is LIVE!🛡️\n\n✅Sca  ns contracts\n\n⚡Tracks shady projects\n➡https://t.co/obXDPUv63g\n\n#RatCop #Solana #Memecoins #MemeCoinSeason2025 #CRYPTO #Presale #Pinksale https://t.co/0K4eilySXN"
+    },
+    {
+        "referenced_tweets": [
+            {
+                "type": "retweeted",
+                "id": "1893996626437448112"
+            }
+        ],
+        "edit_history_tweet_ids": [
+            "1894280960130388151"
+        ],
+        "created_at": "2025-02-25T06:59:09.000Z",
+        "public_metrics": {
+            "retweet_count": 968,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 0
+        },
+        "conversation_id": "1894280960130388151",
+        "author_id": "1866474306827403264",
+        "lang": "en",
+        "id": "1894280960130388151",
+        "text": "RT @x_stoopidcats_x: 🚨 24 Hours Left! 🚨\n\nPresale is almost here! \nBe aware of scam sites—double-check all links!\n\n🔗 Official Links:\n🌐 Websi…",
+        "entities": {
+            "mentions": [
+                {
+                    "start": 3,
+                    "end": 19,
+                    "username": "x_stoopidcats_x",
+                    "id": "1787536345923297285"
+                }
+            ]
+        }
+    },
+    {
+        "referenced_tweets": [
+            {
+                "type": "retweeted",
+                "id": "1893996626437448112"
+            }
+        ],
+        "edit_history_tweet_ids": [
+            "1894280959383499002"
+        ],
+        "created_at": "2025-02-25T06:59:09.000Z",
+        "public_metrics": {
+            "retweet_count": 968,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 0
+        },
+        "conversation_id": "1894280959383499002",
+        "author_id": "1874970569550303232",
+        "lang": "en",
+        "id": "1894280959383499002",
+        "text": "RT @x_stoopidcats_x: 🚨 24 Hours Left! 🚨\n\nPresale is almost here! \nBe aware of scam sites—double-check all links!\n\n🔗 Official Links:\n🌐 Websi…",
+        "entities": {
+            "mentions": [
+                {
+                    "start": 3,
+                    "end": 19,
+                    "username": "x_stoopidcats_x",
+                    "id": "1787536345923297285"
+                }
+            ]
+        }
+    }
+]
