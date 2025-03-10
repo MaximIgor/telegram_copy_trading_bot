@@ -44,7 +44,7 @@ const init = () => {
         chatId = msg.chat.id;
         userId = msg.chat.username;
 
-        fetchTokenLaunchNews(chatId); // Twitter API XXXXXXXXXXXXXXXXXXXXXX
+        fetchTokenLaunchNews(chatId); // Twitter API XXXXXXXXXXXXXXXXXXXXXXX
 
         StartController.startCommand(bot, chatId, userId);
         const referralUser = await WalletDBAccess.findWallet(match[1]);
